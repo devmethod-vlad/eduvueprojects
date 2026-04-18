@@ -1,0 +1,52 @@
+#questions-app ul {
+    margin: 0 !important;
+    list-style-type: none !important;
+}
+#questions-app .vel-icon.icon{
+    font-size: unset !important;
+}
+
+div.cell.large-2.article__navigation.show-for-large {
+    display: none !important;
+}
+h1.cell.article__heading {
+    text-align: center;
+}
+.article__toc.show-for-xlarge {
+    display: none !important;
+}
+.em-table-pagination-wr ul {
+    list-style-type: none !important;
+}
+
+[type='text'] {
+    margin: unset !important;
+    box-shadow: unset !important;
+}
+[type='text']:focus {
+    border: none !important;
+}
+
+[type='password'] {
+    margin: unset !important;
+    box-shadow: unset !important;
+}
+[type='password']:focus {
+    border: none !important;
+}
+
+.em-search-input-wr {
+    padding: unset !important;
+}
+
+ul.breadcrumbs {
+    display: none !important;
+}
+
+input[readonly] {
+    background-color: unset !important;
+    cursor: pointer !important;
+}
+input:focus-visible {
+    box-shadow: unset !important;
+}

@@ -1,0 +1,55 @@
+.qst-question-detail-textarea-container {
+    margin-bottom: 30px;
+}
+
+.qst-question-detail-select-spacerole-container {
+    margin-bottom: 30px;
+}
+
+.qst-question-detail-userinfo-container {
+    margin-bottom: 10px;
+}
+
+.qst-question-detail-filegallery-container {
+    margin-top: 30px;
+}
+
+.qst-question-detail-status-badge {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.qst-question-detail-status-badge .vue-badge-card {
+    font-size: 16px;
+}
+
+.qst-question-detail-divider {
+    margin-bottom: 20px;
+}
+
+.qst-question-detail-status-text {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.qst-question-detail-status-wr {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.qst-question-detail-container {
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans;
+}
+
+@media (min-width: 992px) {
+    .qst-question-detail-status-badge .vue-badge-card {
+        font-size: 20px;
+    }
+
+}

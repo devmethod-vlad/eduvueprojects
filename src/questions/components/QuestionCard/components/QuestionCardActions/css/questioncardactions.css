@@ -1,0 +1,10 @@
+.card-actions-item-wr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-actions-item-icon {
+    font-size: 20px;
+}

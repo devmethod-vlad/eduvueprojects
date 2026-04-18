@@ -1,0 +1,98 @@
+.qst-telbanner-top-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.qst-telbanner-bottom-text a {
+    color: #157171;
+    text-decoration: underline dotted #157171;
+}
+
+.qst-telbanner-bottom-text-span {
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #157171;
+    text-decoration: underline dotted #157171;
+}
+
+.qst-telbanner-bottom-text {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.qst-telbanner-bottom-image {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.qst-telbanner-bottom {
+    display: flex;
+}
+
+.qst-telbanner-wr {
+    font-weight: 400;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D933;
+    border: 0.5px #000000 solid;
+    border-radius: 9px;
+    font-size: 16px;
+    transition: height 0.2s ease;
+}
+
+.qst-telbanner-bottom-image img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+
+
+@media (min-width: 576px) {
+    .qst-telbanner-wr {
+        font-size: 18px;
+    }
+
+    .qst-telbanner-bottom-text {
+        width: 80%;
+    }
+
+    .qst-telbanner-bottom-image {
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px) {
+    .qst-telbanner-wr {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .qst-telbanner-wr {
+        font-size: 24px;
+    }
+    .qst-telbanner-bottom-text {
+        width: 70%;
+    }
+
+    .qst-telbanner-bottom-image {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+
+}

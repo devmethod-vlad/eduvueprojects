@@ -1,0 +1,93 @@
+.qst-po-content {
+    display: flex;
+}
+
+.qst-profile-menu-user-role {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.qst-profile-menu-user-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.qst-account-icon-wr {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.qst-exit-icon-wr {
+    cursor: pointer;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.qst-account-icon {
+    font-size: 1.5em;
+}
+
+
+.qst-exit-icon {
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
+.qst-po-header-text {
+    display: none;
+    align-items: flex-start;
+    font-weight: 600;
+    font-size: 1.65em;
+}
+
+.qst-po-header-icons {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.qst-po-header {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.qst-private-office-wr {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .qst-po-header {
+        margin-bottom: 20px;
+    }
+
+    .qst-po-header-icons {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

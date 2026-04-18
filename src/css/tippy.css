@@ -1,0 +1,10 @@
+.tippy-box {
+    font-family: "Helvetica";
+    font-weight: bold !important;
+    background-color: #d8d8d8 !important;
+    color: #1ab394 !important;
+    border:1px solid #d8d8d8 !important;
+}
+.tippy-arrow {
+    color: #d8d8d8 !important;
+}

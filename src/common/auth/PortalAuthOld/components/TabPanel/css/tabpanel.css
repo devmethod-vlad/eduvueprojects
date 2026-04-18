@@ -1,0 +1,124 @@
+.portalauth-tab-panel-loading {
+    padding-top: 100px;
+}
+
+.portalauth-tabs-content {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.portalauth-tab-panel {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.portalauth-tab-title-divider {
+    color: #757575;
+    margin-bottom: 25px;
+}
+
+.portalauth-tab-title-text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.portalauth-tabs-anonym {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+    height: 50px;
+    border: 1px #757575 solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portalauth-tabs-anonym:hover {
+    background-color: rgba(233, 233, 233, 0.25);
+}
+
+.portalauth-tabs-login {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+    height: 50px;
+    border: 1px #757575 solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portalauth-tabs-login:hover {
+    background-color: rgba(233, 233, 233, 0.25);
+}
+
+.portalauth-active-tab {
+    background-color: #FFF199;
+}
+.portalauth-active-tab:hover {
+    background-color: #cbc07b !important;
+}
+
+.portalauth-tabs-wr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portalauth-tab-title-wr {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 576px) {
+    .portalauth-tab-panel {
+        width:90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .portalauth-tab-panel {
+        width:70%;
+    }
+    .portalauth-tab-panel {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) {
+    .portalauth-tab-panel {
+        width: 60%;
+    }
+    .portalauth-tabs-anonym {
+        height: 60px;
+        font-size: 18px;
+    }
+    .portalauth-tabs-login {
+        width: 60%;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .portalauth-tab-panel {
+        width: 50%;
+    }
+    .portalauth-tabs-anonym {
+        height: 50px;
+    }
+    .portalauth-tabs-login {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .portalauth-tab-panel {
+        width: 40%;
+    }
+}

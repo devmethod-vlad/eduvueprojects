@@ -1,0 +1,19 @@
+.paginate-buttons {
+    color: #333333 !important;
+    font-family: OpenSans !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    border: 1px #E6E6E6 solid !important;
+}
+.back-button {
+    color: #CCCCCC !important;
+}
+
+.active-page {
+    z-index: 3;
+    color: #333333 !important;
+    background-color: white !important;
+    outline: 0;
+    box-shadow: unset !important;
+    border: 2px #3DCFCF solid !important;
+}

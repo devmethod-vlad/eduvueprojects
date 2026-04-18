@@ -1,0 +1,22 @@
+.qst-info-error {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100px;
+}
+.qst-info-error-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.qst-info-error-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #E04B37;
+    font-size: 24px;
+    font-weight: 400;
+}

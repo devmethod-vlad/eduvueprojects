@@ -1,0 +1,149 @@
+
+.edu-update-info-app-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-app-send-button button {
+    width: 100%;
+}
+
+.info-app-agreement-notme {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #1D8585;
+
+}
+.info-app-agreement-notme:hover {
+    color: #157171;
+}
+
+.info-app-agreement-checkbox {
+    padding-top: 2px;
+    padding-right: 8px;
+}
+
+.info-app-agreement-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.info-app-agreement {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+
+
+.edu-update-info-container {
+    width: 90%;
+    font-family: OpenSans;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slide-enter-active {
+    -moz-transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+
+.slide-leave-active {
+    -moz-transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slide-enter-to, .slide-leave {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.slide-enter, .slide-leave-to {
+    overflow: hidden;
+    max-height: 0;
+}
+
+.edu-update-info-app {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.update-info-app-disclaimer {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-app-disclaimer-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.info-app-disclaimer-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 32px;
+}
+.info-app-space-divider {
+    border-bottom: 1px #E6E6E6 solid;
+    margin-bottom: 24px;
+}
+
+
+@media (min-width: 576px) {
+    .edu-update-info-container {
+        width: 65%;
+    }
+}
+
+@media (min-width: 768px) {
+    .edu-update-info-container {
+        width: 58%;
+    }
+}
+
+@media (min-width: 992px) {
+    .edu-update-info-container {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .edu-update-info-container {
+        width: 36%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .edu-update-info-container {
+        width: 36%;
+    }
+}

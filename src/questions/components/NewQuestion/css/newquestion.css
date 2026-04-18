@@ -1,0 +1,51 @@
+
+.qst-newquestion-action-buttons-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.qst-newquestion-warning-panel-container {
+    margin-bottom: 40px;
+}
+
+.qst-newquestion-filezone-wr {
+    margin-bottom: 40px;
+}
+
+.qst-newquestion-textarea-wr {
+    margin-bottom: 40px;
+}
+
+.qst-newquestion-select-topic-wr {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.qst-newquestion-select-topic-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .qst-newquestion-select-topic-title {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

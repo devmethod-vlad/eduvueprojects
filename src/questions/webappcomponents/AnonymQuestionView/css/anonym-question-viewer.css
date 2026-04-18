@@ -1,0 +1,42 @@
+.webapp-anonym-question-invalid {
+    font-family: OpenSans;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F05C46;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.webapp-anonym-question-number {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.webapp-anonym-question-viewer {
+    margin-top: 20px;
+    padding: 20px;
+    font-family: OpenSans;
+}
+
+.webapp-anonym-question-loading {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webapp-anonym-question-error {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F05C46;
+    font-weight: 600;
+    font-size: 20px;
+}

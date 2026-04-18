@@ -1,0 +1,17 @@
+.qst-block-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.qst-block-error-text {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.qst-block-error-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

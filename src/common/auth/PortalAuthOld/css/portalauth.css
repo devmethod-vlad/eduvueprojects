@@ -1,0 +1,71 @@
+.portalauth-warntext-wrapper {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #dc3545;
+
+}
+.standalone-login-form {
+    padding-top: 100px;
+}
+
+.login-form-standalone-submit-panel {
+    padding-top: 100px;
+}
+
+.portalauth-loading-wr {
+    padding-top: 100px;
+}
+
+.portalauth-loading-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portalauth-loading-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.portalauth-component-container {
+    width: 100%;
+}
+.standalone-login-form {
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .standalone-login-form {
+        width:90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .standalone-login-form {
+        width:70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .standalone-login-form {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .standalone-login-form {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .standalone-login-form {
+        width: 40%;
+    }
+}

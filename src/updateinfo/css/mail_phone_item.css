@@ -1,0 +1,75 @@
+
+.contacts-item-del-stub {
+    width: 12px;
+    height: 12px;
+}
+.info-app-contact-item-errorpanel .edu-warn-panel {
+    margin: unset !important;
+}
+
+.contact-item-disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.info-app-contact-item-base-checkbox {
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-app-contact-item-base-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    cursor: pointer;
+}
+
+
+.info-app-contact-item-base-wr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-app-contact-item-input-wr input {
+    width: 100%;
+}
+.info-app-contact-item-input-wr {
+    padding-top: 1px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.info-app-contact-item-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.info-app-contact-item-del {
+    padding-top: 9px;
+    cursor: pointer;
+    padding-right: 6px;
+    padding-left: 6px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info-app-contact-item-icon {
+    margin-right: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info-app-contact-item-wr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,45 @@
+.v-popper--theme-qst-standart-tooltip .v-popper__inner{
+    color: #000000;
+    background-color: white;
+    font-size: 16px;
+    font-family: OpenSans;
+}
+.v-popper--theme-qst-standart-tooltip .v-popper__arrow-outer {
+    display: none;
+}
+
+.v-popper--theme-qst-standart-tooltip .v-popper__arrow-inner {
+    display: none;
+}
+
+.v-popper--theme-qst-standart-tooltip .v-popper__wrapper {
+    border: 1px #000000 solid;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px 0 #0000003d;
+}
+
+.v-popper--theme-qst-arrow-tooltip .v-popper__wrapper {
+    font-size: 16px;
+    font-family: OpenSans;
+}
+.v-popper--theme-qst-arrow-tooltip .v-popper__inner{
+    padding: 10px;
+}
+
+.v-popper--theme-qst-arrow-tooltip-black .v-popper__inner{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-family: OpenSans;
+    border-radius: unset;
+}
+
+.v-popper--theme-qst-arrow-tooltip-black .v-popper__inner{
+    padding: 10px;
+}
+
+.v-popper--theme-qst-arrow-tooltip-black .v-popper__arrow-inner {
+    border-color: black;
+}
+
+

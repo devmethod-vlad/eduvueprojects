@@ -1,0 +1,125 @@
+.vue-modalwindow-header-text {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 28px !important;
+}
+
+.vue-modalwindow-header-border {
+    border-bottom: unset !important;
+    padding: unset !important;
+}
+.vue-modalwindow-header {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    padding-bottom: 16px !important;
+    padding-top: 24px !important;
+}
+
+.vue-form-label {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    margin-bottom: 8px !important;
+    display: inline-block;
+    color: #333333 !important;
+}
+
+.vue-btn {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.vue-btn-normal:hover {
+    background-color: #1D8585 !important;
+    border-color: #1D8585 !important;
+}
+
+.vue-btn-normal:active {
+    background-color: #157171 !important;
+    border-color: #157171 !important;
+}
+
+.vue-btn-normal-wobg {
+    background-color: #FFFFFF !important;
+}
+
+.vue-btn-normal-wobg:hover {
+    background-color: #D7F0F0 !important;
+    border-color: #157171 !important;
+}
+
+.vue-btn-normal-wobg:active {
+    background-color: #C2E8E8 !important;
+    border-color: #157171 !important;
+}
+
+.vue-btn-normal-wobg-wobrd {
+    font-weight: 400;
+    color: #1D8585;
+}
+
+.vue-btn-normal-wobg-wobrd:hover {
+    color: #157171 !important;
+}
+
+.vue-form-control {
+    font-weight: 400 !important;
+    border: 1px #999999 solid;
+}
+
+.vue-form-control:hover{
+    border-color: #757575 !important;
+}
+.vue-form-control:focus{
+    box-shadow: unset !important;
+    border-color: #3dcfcf !important;
+    border-width: 2px !important;
+}
+
+input::placeholder {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    color: #999999 !important;
+    font-family: OpenSans !important;
+}
+
+textarea::placeholder {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #999999 !important;
+    font-family: OpenSans !important;
+}
+
+.vue-btn-warn-wobg {
+    background-color: white !important;
+}
+
+.vue-btn-warn-wobg:hover {
+    color: #E04B37 !important;
+    background-color: #FDE4DF !important;
+}
+
+.vue-btn-warn-wobg:active {
+    color: #CD3B2B !important;
+    background-color: #FCD6CE !important;
+}
+
+.vue-input-error {
+    border: 2px #F05C46 solid !important;
+}
+
+.vue-input-error:hover {
+    border: 2px #F05C46 solid !important;
+}
+
+.vue-input-error:focus {
+    box-shadow: unset !important;
+}
+
+.vue-passinput-error {
+    border: 2px #F05C46 solid !important;
+}

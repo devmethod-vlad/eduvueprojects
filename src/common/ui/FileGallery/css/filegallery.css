@@ -1,0 +1,17 @@
+.qst-detail-filegallery {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .qst-detail-filegallery {
+        justify-content: flex-start;
+    }
+}

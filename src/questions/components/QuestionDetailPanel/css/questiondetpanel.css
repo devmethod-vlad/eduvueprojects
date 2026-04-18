@@ -1,0 +1,39 @@
+.qst-detail-panel-body {
+    padding: 20px;
+}
+
+.qst-panel-header-text-wr {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.qst-panel-header-icon-wr {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.qst-detail-panel-header {
+    padding: 20px;
+    min-height: 40px;
+    font-weight: 600;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.qst-detail-panel {
+    font-family: OpenSans;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #D9D9D933;
+}
+
+.qst-detail-scroll-style {
+    overflow-y: scroll;
+}

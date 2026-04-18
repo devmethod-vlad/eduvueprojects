@@ -1,0 +1,37 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    :width="props.size"
+    :height="props.size"
+    viewBox="0 0 24 24"
+    :fill="props.color"
+  >
+    <path
+        d="M11.29,10.21a1,1,0,0,0,1.42,0l3-3a1,1,0,1,0-1.42-1.42L12,8.09,9.71,5.79A1,1,0,0,0,8.29,7.21Zm1.42,4.58a1,1,0,0,0-1.42,0l-3,3a1,1,0,0,0,1.42,1.42L12,16.91l2.29,2.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"
+    >
+
+    </path>
+  </svg>
+</template>
+
+<script setup>
+
+// PROPS
+const props = defineProps({
+  size:
+      {
+        type: Number,
+        default: 48
+      },
+  color:
+      {
+        type: String,
+        default: '#333333'
+      }
+});
+
+</script>
+
+<style scoped>
+
+</style>

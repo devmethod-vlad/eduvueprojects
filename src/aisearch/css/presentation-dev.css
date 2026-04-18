@@ -1,0 +1,81 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 992px) {
+    #aisearch-app {
+        padding-top: 220px;
+    }
+
+    body {
+        background-image: url("http://127.0.0.1:5000/eduportal/aisearch/static/imgs/main-back-992.jpg");
+    }
+}
+
+@media (min-width: 1060px) {
+
+    #aisearch-app {
+        padding-top: 240px;
+    }
+
+}
+
+@media (min-width: 1160px) {
+
+    #aisearch-app {
+        padding-top: 260px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #aisearch-app {
+        padding-top: 240px;
+    }
+
+    body {
+        background-image: url("http://127.0.0.1:5000/eduportal/aisearch/static/imgs/main-back-1200.jpg");
+    }
+}
+
+@media (min-width: 1300px) {
+    #aisearch-app {
+        padding-top: 260px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #aisearch-app {
+        padding-top: 180px;
+    }
+
+    body {
+        background-image: url("http://127.0.0.1:5000/eduportal/aisearch/static/imgs/main-back-1400.jpg");
+    }
+}
+
+@media (min-width: 1500px) {
+    #aisearch-app {
+        padding-top: 260px;
+    }
+}
+
+@media (min-width: 1600px) {
+
+}
+
+@media (min-width: 1900px) {
+
+}

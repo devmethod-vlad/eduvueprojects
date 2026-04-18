@@ -1,0 +1,34 @@
+.qst-detail-filezone-files-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.qst-detail-filezone-wr {
+    margin-top: 20px;
+}
+
+.qst-detail-filezone-warninfo-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.qst-filezone-warninfo-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qst-filezone-warninfo-item-text {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #E04B37;
+}
+
+.warninfo-item-icon {
+    color: #E04B37;
+    font-size: 16px;
+}

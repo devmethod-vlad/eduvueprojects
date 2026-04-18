@@ -1,0 +1,93 @@
+.qst-addquestion-tip-text {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.qst-addquestion-tip-buttons button {
+    min-width: 160px;
+}
+
+.qst-addquestion-tip-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addquestion-tipbutton-feedback {
+    margin-left: 10px;
+}
+
+.qst-addquestion-tip-wr {
+    display: flex;
+    flex-direction: column;
+}
+
+.qst-addquestion-button button{
+    font-weight: 400 !important;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.qst-addquestion-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.qst-addquestion-button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qst-addquestion-title {
+    font-weight: 600;
+    font-size: 1.65em;
+    height: 50px;
+    width: 50%;
+    display: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.qst-addquestion-wr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .qst-addquestion-title {
+        height: 50px;
+        width: 50%;
+        display: flex;
+    }
+    .qst-addquestion-button {
+        width: 50%;
+    }
+    .qst-addquestion-button button{
+        width: auto;
+
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

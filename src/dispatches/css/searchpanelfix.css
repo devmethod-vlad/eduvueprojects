@@ -1,0 +1,14 @@
+.em-search-input-wr:focus-within {
+    box-shadow: unset !important;
+    border-color: #3dcfcf !important;
+    border-width: 2px !important;
+}
+.em-search-text:hover {
+    background-color: #D7F0F0 !important;
+}
+/*.em-search-find-icon {*/
+/*    margin-left: unset !important;*/
+/*}*/
+.em-search-container {
+    margin-bottom: unset !important;
+}
