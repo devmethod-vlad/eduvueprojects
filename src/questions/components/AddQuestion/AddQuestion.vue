@@ -31,6 +31,7 @@
 										:body-min-height="200"
             >
                 <new-question
+												:saving="isSavingNewQuestion"
 												@savenewquestion="onSaveNewQuestion()"
 								/>
 
@@ -41,6 +42,7 @@
     <template v-if="newQuestionVisible && appStore.questionShowMode === 'modal'">
         <question-detail-modal
 								target="newquestion"
+								:saving="isSavingNewQuestion"
 								@closedetailmodal="closeNewQuestionModal()"
 								@savenewquestion="onSaveNewQuestion()"
 				/>
@@ -81,6 +83,7 @@ const props = defineProps({
 // DATA
 const newQuestionVisible = ref(false);
 const addquestion = ref(null);
+const isSavingNewQuestion = ref(false);
 
 // STORE
 const appStore = useAppStore();
@@ -117,25 +120,33 @@ const checkActionType = ()=>{
 }
 
 const onSaveNewQuestion =async ()=>{
-  console.log("onSaveNewQuestion");
+  if (isSavingNewQuestion.value){
+    return;
+  }
+
+  isSavingNewQuestion.value = true;
+
+  try {
     let action = checkActionType();
-  console.log("onSaveNewQuestion action: ", action);
     let saveResp = await saveOrUpdateQuestion(saveParams.value, action);
-    console.log("onSaveNewQuestion saveResp: ", saveResp);
+
     if (saveResp.status === 'ok'){
-        let copyNewQuestion = {...newQuestion.$state};
-        closeNewQuestionModal();
-        await formQuestionsList(questionsListParams.value);
-        if (copyNewQuestion.target === 'feedback'){
-          submitStore.message = 'Вы успешно создали сообщение с обратной связью!';
-        }
-        else {
-          submitStore.message = 'Вы успешно создали новый вопрос!';
-        }
+      let copyNewQuestion = {...newQuestion.$state};
+      closeNewQuestionModal();
+      await formQuestionsList(questionsListParams.value);
+      if (copyNewQuestion.target === 'feedback'){
+        submitStore.message = 'Вы успешно создали сообщение с обратной связью!';
+      }
+      else {
+        submitStore.message = 'Вы успешно создали новый вопрос!';
+      }
 		}
     else {
       newQuestion.errorInfo = 'При формировании нового вопроса возникла проблема! Повторите попытку позже!';
 		}
+  } finally {
+    isSavingNewQuestion.value = false;
+  }
 
 }
 

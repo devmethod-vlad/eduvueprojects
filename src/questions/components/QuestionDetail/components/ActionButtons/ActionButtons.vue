@@ -3,11 +3,12 @@
 				<div class="qst-action-newquestion-buttons-wr">
 
 					<button
-									@click.stop.prevent="emits('submitbutton', 'savenewquestion')"
+									@click.stop.prevent="emitSubmitButton('savenewquestion')"
 									type="button"
 									class="vue-btn vue-btn-normal qst-save-newquestion-button"
+									:disabled="props.disabled || props.loading"
 					>
-							Отправить
+							{{ props.loading ? 'Отправка...' : 'Отправить' }}
 					</button>
 				</div>
 		</template>
@@ -16,11 +17,12 @@
     <div class="qst-action-newquestion-buttons-wr">
 
       <button
-          @click.stop.prevent="emits('submitbutton', 'savefastquestion')"
+          @click.stop.prevent="emitSubmitButton('savefastquestion')"
           type="button"
           class="vue-btn vue-btn-normal qst-save-newquestion-button"
+          :disabled="props.disabled || props.loading"
       >
-        Отправить
+        {{ props.loading ? 'Отправка...' : 'Отправить' }}
       </button>
     </div>
   </template>
@@ -67,6 +69,16 @@ const props = defineProps({
             type: String,
             default: '',
             required: true
+        },
+    disabled:
+        {
+            type: Boolean,
+            default: false
+        },
+    loading:
+        {
+            type: Boolean,
+            default: false
         }
 })
 
@@ -82,6 +94,15 @@ const synchroStore = useSynchroStore();
 
 // DATA
 const actionArray = ref([]);
+
+// METHODS
+const emitSubmitButton = (action)=>{
+    if (props.disabled || props.loading){
+        return;
+    }
+
+    emits('submitbutton', action);
+};
 
 
 // WATCH

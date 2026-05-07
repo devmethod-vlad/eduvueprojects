@@ -137,6 +137,8 @@
           <div class="qst-newquestion-action-buttons-container">
 								<action-buttons
 												:target="newQuestion.$state.target"
+												:disabled="props.saving"
+												:loading="props.saving"
 												@submitbutton="validateNewQuestion()"
 								/>
 						</div>
@@ -166,6 +168,15 @@ import {cleanInputText} from "@/questions/services/cleaninputtext";
 // EMITS
 
 const emits = defineEmits(['savenewquestion']);
+
+// PROPS
+const props = defineProps({
+  saving:
+    {
+      type: Boolean,
+      default: false
+    }
+});
 
 let topics = [
     {
@@ -228,6 +239,10 @@ const resetNewQuestionError = ()=>{
 }
 
 const validateNewQuestion = ()=>{
+    if (props.saving){
+      return;
+    }
+
     resetWarnings();
     resetNewQuestionError();
     let validFlag = true;

@@ -42,6 +42,7 @@
         </template>
         <template v-if="['newquestion', 'fastquestion'].includes(props.target)">
           <new-question
+            :saving="props.saving"
             @savenewquestion="emits('savenewquestion')"
           />
         </template>
@@ -70,6 +71,11 @@ const props = defineProps({
       type: String,
       default: '',
       required: true
+    },
+  saving:
+    {
+      type: Boolean,
+      default: false
     }
 });
 
